@@ -34,14 +34,14 @@
 //*********************************************************************************************
 // *********** IMPORTANT SETTINGS - YOU MUST CHANGE/ONFIGURE TO FIT YOUR HARDWARE *************
 //*********************************************************************************************
-#define NETWORKID 100 // The same on all nodes that talk to each other
-#define NODEID 7 // The unique identifier of this node
-#define RECEIVER 100 // The recipient of packets
+#define NETWORKID 150 // The same on all nodes that talk to each other
+#define NODEID 8 // The unique identifier of this node
+#define RECEIVER 7 // The recipient of packets
 //Match frequency to the hardware version of the radio on your Feather
 #define FREQUENCY RF69_433MHZ
 //#define FREQUENCY RF69_868MHZ
 //#define FREQUENCY RF69_915MHZ
-#define ENCRYPTKEY "sampleEncryptKey" //exactly the same 16 characters/bytes on all nodes!
+#define ENCRYPTKEY "testtesttesttest" //exactly the same 16 characters/bytes on all nodes!
 #define IS_RFM69HCW true // set to 'true' if you are using an RFM69HCW module
 //*********************************************************************************************
 #define SERIAL_BAUD 115200
